@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>驾校分类</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="top_logo">
+		<div class="logo_img">
+			<a href="#"><img src="img/logo_img.png" alt=""></a>
+		</div>
+	</div><!--top_logo结束-->
+	<div class="top_bar main-pull">
+		<div class="main">
+			<div class="pull-left"></div>
+			<div class="pull-right">
+				<span><a href="#">登录</a></span>
+				<span><a href="#">注册</a></span>
+				<span><a href="#">帮助</a></span>	
+			</div>
+		</div>
+	</div><!--top_bar结束-->
+	<div class="top_header main">
+		<div class="pull-left">
+			<a href="#">
+				<img src="img/logo.png" alt="">
+			</a>
+		</div>
+		<div class="pull-left">
+			<a href="#">
+				<img src="img/logo_ad.png" alt="">
+			</a>
+		</div>
+		<div class="pull-right">
+			<div class="top_search">
+				<select id="sort">
+					<option value="jx">驾校</option>
+					<option value="jl">教练</option>
+					<option value="pl">陪练</option>
+					<option value="google">综合</option>
+				</select>
+				<div class="search"></div>
+				<input class="search-key" type="text">
+				<input class="search-btn" type="submit" value="搜索">				
+			</div>
+		</div>
+	</div><!--top_header结束-->
+	<div class="top_menu main-pull">
+		<div class="main">
+			<a href="#">首页</a>
+			<a href="#" class="avtive">模拟考试</a>
+			<a href="#">VIP试题</a>
+			<a href="#">找驾校</a>
+			<a href="#">找教练</a>
+			<a href="#">找陪练</a>
+			<a href="#">试题讨论</a>
+			<a href="#">视频</a>
+			<a href="#">论坛</a>
+		</div>
+	</div><!--top_menu结束-->
+	<div class="content clearfix">
+		<div class="left">
+			<div class="area_top">
+				<div class="area_cut">
+					当前位置：
+					<a href="#">网站首页>></a>
+					<a href="#">驾校平台</a>
+				</div>
+				<div class="count_school">(当前目录共有15107家驾校)</div>
+			</div>	
+			<div class="area_links clearfix">
+				<ul>
+                    <li class='china'>
+                    	<a href='/bj/'>北京市</a>
+                		<span>(170)</span>
+                	</li>
+                    <li class='china'>
+		                <a href='/tj/'>天津市</a>
+		                <span>(95)</span></li>
+                    <li class='china'>
+		                <a href='/sh/'>上海市</a>
+		                <span>(260)</span></li>
+                    <li class='china'>
+		                <a href='/cq/'>重庆市</a>
+		                <span>(468)</span></li>
+                    <li class='china'>
+		                <a href='/hlj/'>黑龙江</a>
+		                <span>(210)</span></li>
+                    <li class='china'>
+		                <a href='/jl/'>吉林省</a>
+		                <span>(356)</span></li>
+                    <li class='china'>
+		                <a href='/ln/'>辽宁省</a>
+		                <span>(601)</span></li>
+                    <li class='china'>
+		                <a href='/qh/'>青海省</a>
+		                <span>(47)</span></li>
+                    <li class='china'>
+		                <a href='/gs/'>甘肃省</a>
+		                <span>(352)</span></li>
+                    <li class='china'>
+		                <a href='/sx/'>陕西省</a>
+		                <span>(524)</span></li>
+                    <li class='china'>
+		                <a href='/xz/'>西藏</a>
+		                <span>(15)</span></li>
+                    <li class='china'>
+		                <a href='/nmg/'>内蒙古</a>
+		                <span>(387)</span></li>
+                    <li class='china'>
+		                <a href='/xj/'>新疆</a>
+		                <span>(259)</span></li>
+                    <li class='china'>
+		                <a href='/nx/'>宁夏</a>
+		                <span>(47)</span></li>
+                    <li class='china'>
+		                <a href='/gx/'>广西</a>
+		                <span>(473)</span></li>
+                    <li class='china'>
+		                <a href='/sc/'>四川省</a>
+		                <span>(687)</span></li>
+                    <li class='china'>
+		                <a href='/gz/'>贵州省</a>
+		                <span>(348)</span></li>
+                    <li class='china'>
+		                <a href='/yn/'>云南省</a>
+		                <span>(527)</span></li>
+                    <li class='china'>
+		                <a href='/gd/'>广东省</a>
+		                <span>(1185)</span></li>
+                    <li class='china'>
+		                <a href='/fj/'>福建省</a>
+		                <span>(734)</span></li>
+                    <li class='china'>
+		                <a href='/hn/'>湖南省</a>
+		                <span>(861)</span></li>
+                    <li class='china'>
+		                <a href='/jx/'>江西省</a>
+		                <span>(637)</span></li>
+                    <li class='china'>
+		                <a href='/hb/'>湖北省</a>
+		                <span>(596)</span></li>
+                    <li class='china'>
+		                <a href='/zj/'>浙江省</a>
+		                <span>(951)</span></li>
+                    <li class='china'>
+		                <a href='/js/'>江苏省</a>
+		                <span>(1185)</span></li>
+                    <li class='china'>
+		                <a href='/henan/'>河南省</a>
+		                <span>(1226)</span></li>
+                    <li class='china'>
+		                <a href='/hebei/'>河北省</a>
+		                <span>(713)</span></li>
+                    <li class='china'>
+		                <a href='/sd/'>山东省</a>
+		                <span>(797)</span></li>
+                    <li class='china'>
+		                <a href='/shanxi/'>山西省</a>
+		                <span>(350)</span></li>
+                    <li class='china'>
+		                <a href='/hainan/'>海南省</a>
+		                <span>(84)</span></li>
+                    <li class='china'>
+		                <a href='/ah/'>安徽省</a>
+		                <span>(380)</span></li>
+            	</ul>
+            	<div class="clear"></div>
+            	<div class="area_cls"></div>
+			</div>
+			<div class="clear"></div>
+			<div class="l_t">
+				<div class="subs">
+					<div class="left"></div>
+					<div class="title">驾校信息</div>
+					<div class="right"></div>
+				</div>
+				<div class="pagecut">
+					<div class="pagesmini">
+						<a href="index.html">回首页</a>
+					</div>
+				</div>
+			</div>	
+			<div class="l_t_sub">
+				<div class="left"></div>
+				<div class="middle">
+					<span class="star">驾校名称</span>
+					<span class="new"></span>
+					<span class="lschool">学车价格</span>
+					<span class="click">口碑指数 </span>
+					<span class="pricetop">人气指数</span>
+				</div>
+				<div class="right"></div>
+			</div>
+			<div class="clear"></div>
+			<div class="list">
+				<input type="hidden" id="keyword2" value="驾校|学车|陪驾|汽车陪练">
+				<ul id="item" class="item clearfix">
+					<li>
+						<div class="photo">
+							<a href="#" target=_blank>
+						    	<img src="img/xc.jpg" alt="58学车 厦门">
+						    </a>
+						</div>
+						<div class="intro intro2">
+							<div class="s0">
+								<h3><a href="tab.html" target="_blank">58学车 长沙</a></h3>
+							</div>
+							<div class="s1">
+								<div class="perinfo">
+									<span class="name_sex">
+										<a href="#" target='_blank'>共有18条提问</a>&nbsp;&nbsp;&nbsp;06月03日更新										
+									</span>
+									<span class="school">5258
+										<span class="dw">&nbsp;元</span>
+									</span>
+									<span class="rq">
+										<a class="hotel_fen" title="总分：5.00分 总共有1人评论"  href="#" target="_blank">
+		                                    <span class="kbzsp" style="width:100.0px"></span>
+		                                    <span class="kbzs"></span>
+		                                </a>
+									</span>
+									<span class="llcs">21.1万+</span>
+								</div>
+							</div>
+							<p>
+                        		<span class="area" style="width:380px">
+							        <a href='#'>湖南驾校</a>&nbsp;&raquo;&nbsp;
+							        <a href=''>长沙驾校</a>
+							        &nbsp;&raquo;&nbsp;芙蓉区 天心区 岳麓区
+								</span>
+                    		</p>
+						</div>
+					</li>
+					<li>
+						<div class="photo">
+							<a href="#" target=_blank>
+						    	<img src="img/xc.jpg" alt="58学车 厦门">
+						    </a>
+						</div>
+						<div class="intro intro2">
+							<div class="s0">
+								<h3><a href="tab.html" target="_blank">58学车 长沙</a></h3>
+							</div>
+							<div class="s1">
+								<div class="perinfo">
+									<span class="name_sex">
+										<a href="#" target='_blank'>共有18条提问</a>&nbsp;&nbsp;&nbsp;06月03日更新										
+									</span>
+									<span class="school">5258
+										<span class="dw">&nbsp;元</span>
+									</span>
+									<span class="rq">
+										<a class="hotel_fen" title="总分：5.00分 总共有1人评论"  href="#" target="_blank">
+		                                    <span class="kbzsp" style="width:100.0px"></span>
+		                                    <span class="kbzs"></span>
+		                                </a>
+									</span>
+									<span class="llcs">21.1万+</span>
+								</div>
+							</div>
+							<p>
+                        		<span class="area" style="width:380px">
+							        <a href='#'>湖南驾校</a>&nbsp;&raquo;&nbsp;
+							        <a href=''>长沙驾校</a>
+							        &nbsp;&raquo;&nbsp;芙蓉区 天心区 岳麓区
+								</span>
+                    		</p>
+						</div>
+					</li>
+					<li>
+						<div class="photo">
+							<a href="#" target=_blank>
+						    	<img src="img/xc.jpg" alt="58学车 厦门">
+						    </a>
+						</div>
+						<div class="intro intro2">
+							<div class="s0">
+								<h3><a href="tab.html" target="_blank">58学车 长沙</a></h3>
+							</div>
+							<div class="s1">
+								<div class="perinfo">
+									<span class="name_sex">
+										<a href="#" target='_blank'>共有18条提问</a>&nbsp;&nbsp;&nbsp;06月03日更新										
+									</span>
+									<span class="school">5258
+										<span class="dw">&nbsp;元</span>
+									</span>
+									<span class="rq">
+										<a class="hotel_fen" title="总分：5.00分 总共有1人评论"  href="#" target="_blank">
+		                                    <span class="kbzsp" style="width:100.0px"></span>
+		                                    <span class="kbzs"></span>
+		                                </a>
+									</span>
+									<span class="llcs">21.1万+</span>
+								</div>
+							</div>
+							<p>
+                        		<span class="area" style="width:380px">
+							        <a href='#'>湖南驾校</a>&nbsp;&raquo;&nbsp;
+							        <a href=''>长沙驾校</a>
+							        &nbsp;&raquo;&nbsp;芙蓉区 天心区 岳麓区
+								</span>
+                    		</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div><!--左半部分结束-->
+		<input id="cenrruy" type="hidden" value="13" />
+		<div id="rit">
+			<div class="jxedt_login">
+				<h3>驾校登录</h3>
+				<div class="loginbox">
+					<form name="form" id="myform" method="" target="cmtframe" action="">
+						<input type="hidden" name="callback" value="_jxedtcallback">
+						<input type="hidden" name="usertype" value="jiaxiao">
+						<ul>
+							<li class="login_1">用户名：</li>
+							<li class="login_2">
+								<input name="username" type="text" id="username" value=""> 
+							</li>
+							<li class="login_1">密 &nbsp;码：</li>
+							<li class="login_2">
+								<input name="password" type="password" id="password" value="">
+							</li><li class="login_1">验证码：</li>
+							<li class="login_code">
+								<input name="adminid" type="text" id="adminid" size="5">
+							</li>
+							<li class="login_codeimg">
+								<img src="http://user.jxedt.com/inc/checkcode" style="width:50px;height:20px;vertical-align:middle;">
+							</li>
+							<li class="login_4"></li>
+							<li class="login_1"></li>
+							<li class="login_btn">
+								<input type="submit" class="login_btn_submit" value="登 录">
+							</li>
+							<li class="login_btn">
+								<input type="reset" class="login_btn_reset" value="重 置">
+							</li>
+							<div class="clear"></div>
+						</ul>
+					</form>
+				</div>
+			</div>
+			<div class="jxedt_reg">
+				<a href="#"><span class="regimg"></span></a>
+			</div>
+			<div class="jxedt_biz">
+				<div class="bizbox">
+					<div class="biz_info">
+						<span>10秒填写信息，为您提供靠谱驾校！</span>
+						<span>仅限北京、重庆、苏州</span>
+					</div>
+					<ul>
+						<li class="biz_1">手机：</li>
+						<li>
+							<input name="phone" type="text" id="phone" value="" style="width:85px;">
+							<input type="button" id="second" style="width:70px;margin-left:3px;cursor:pointer;" value="获取验证码">
+						</li>						
+						<li class="biz_1">验证码：</li>
+						<li class="biz_2"><input class="inputs" type="tel" placeholder="请填写验证码" name="code" id="code"></li>
+						
+						<li class="biz_1">地区：</li>
+						<li class="biz_2">
+							<select class="biz_select" id="biz_province_select">
+								<option value="1">北京</option>
+								<option value="4">重庆</option>
+								<option value="184">苏州</option>
+							</select>
+						</li>
+						<li class="biz_3"><span>*</span></li>
+						
+						<li class="biz_1">姓名：</li>
+						<li class="biz_2"><input name="biz_username" type="text" value=""></li>
+						<li class="biz_3"><span>*</span></li>
+
+						<li class="biz_btn"><input type="button" class="biz_btn_submit" value="提交" id="biz_add_submit"></li>
+					</ul>
+				</div>
+			</div>
+			<div style="clear:both; height:10px; display:block; overflow:hidden"></div>
+			<div class="jxedt_links">
+				<h3>学车指导</h3>
+				<div class="links_box citybyquyu">
+					<div class="xczdt">学车七步走，轻松易上手</div>
+					<div class="xczdc_t xczd1">我想学车</div>
+					<ul class="xczdc_c">
+						<li>
+							<a href="#" target="_blank">学车流程</a>
+							<a href="#" target="_blank">政策法规</a>
+						</li>
+						<li class="last">
+							<a href="#" target="_blank">报名须知</a>
+							<a href="#" target="_blank">学车动态</a>
+						</li>
+					</ul>
+					<div class="xczdc_t xczd2">准备学车</div>
+					<ul class="xczdc_c">
+						<li>
+							<a href="#" target="_blank">择校指南</a>
+							<a href="#" target="_blank">驾校查询</a>
+						</li>
+						<li class="last">
+							<a href="#" target="_blank">驾校教练</a>
+							<a href="#" target="_blank">汽车陪练</a>
+						</li>
+					</ul>   
+			    </div>
+			</div>
+		</div><!--右半部分结束-->
+	</div><!--content结束-->
+	<div class="foot">
+	    <div class="line"></div>
+	    <div class="ourlinks">
+	        <a href="#">网站介绍</a>
+	        |<a target="_blank" href="#">网站地图</a>
+	        |<a target="_blank" href="#">合作链接</a>
+	        |<a target="_blank" href="#">免责声明</a>
+	        |<a target="_blank" href="#">诚聘英才</a>
+	        |<a target="_blank" href="#">招商服务</a>
+	        |<a target="_blank" href="#">用户帮助</a>
+	        |<a onclick="showcontact()" href="">联系我们</a>
+	        |<a target="_blank" href="#">意见反馈</a>
+	    </div>
+	    <div class="ourpingtai">
+	        驾校一点通（<a href="om">www.jxedt.com</a>
+	        ）旗下平台：<a target="_blank" href="#">驾校平台</a>
+	        <a target="_blank" href="#">教练平台</a>
+	        <a target="_blank" href="#">陪练平台</a>
+	        <a target="_blank" href="#">考试平台</a>
+	        <br>
+	            杭州XXX科技有限公司 浙ICP备123456789号
+		</div>
+    </div>		
+</body>
+</html>

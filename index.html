@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>驾校1点通</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+</head>
+<body>
+	<div class="top_logo">
+		<div class="logo_img">
+			<a href="#"><img src="img/logo_img.png" alt=""></a>
+		</div>
+	</div><!--top_logo结束-->
+	<div class="top_bar main-pull">
+		<div class="main">
+			<div class="pull-left"></div>
+			<div class="pull-right">
+				<span><a href="#">登录</a></span>
+				<span><a href="#">注册</a></span>
+				<span><a href="#">帮助</a></span>	
+			</div>
+		</div>
+	</div><!--top_bar结束-->
+	<div class="top_header main">
+		<div class="pull-left">
+			<a href="#">
+				<img src="img/logo.png" alt="">
+			</a>
+		</div>
+		<div class="pull-left">
+			<a href="#">
+				<img src="img/logo_ad.png" alt="">
+			</a>
+		</div>
+		<div class="pull-right">
+			<div class="top_search">
+				<select id="sort">
+					<option value="jx">驾校</option>
+					<option value="jl">教练</option>
+					<option value="pl">陪练</option>
+					<option value="google">综合</option>
+				</select>
+				<div class="search"></div>
+				<input class="search-key" type="text">
+				<input class="search-btn" type="submit" value="搜索">				
+			</div>
+		</div>
+	</div><!--top_header结束-->
+	<div class="top_menu main-pull">
+		<div class="main">
+			<a href="#">首页</a>
+			<a href="#" class="avtive">模拟考试</a>
+			<a href="#">VIP试题</a>
+			<a href="#">找驾校</a>
+			<a href="#">找教练</a>
+			<a href="#">找陪练</a>
+			<a href="#">试题讨论</a>
+			<a href="#">视频</a>
+			<a href="#">论坛</a>
+		</div>
+	</div><!--top_menu结束-->
+	<div class="main">
+		<div class="menu-left pull-left">
+			<div class="menu-left-menus">
+				<a href="#">小车试题</a>
+				<a href="#">客车试题</a>
+				<a href="#">货车试题</a>
+				<a href="#">摩托车试题</a>
+				<a href="#">从业资格考试</a>
+				<a href="#">回复资格考试</a>
+				<a href="#">驾校一点通手机版</a>
+			</div>
+		</div>
+		<div class="menu-right pull-right">
+			<a href="#"><img src="img/right_menu_kssp.png" alt=""></a>
+			<div class="menu-right-middle">
+				<a href="#"><img src="img/right_menu_jtbz.png" alt=""></a>
+				<a href="#"><img src="img/right_menu_xczn.png" alt=""></a>
+			</div>
+			<a href="#"><img src="img/right_menu_jkbd.png" alt=""></a>
+		</div>
+		<div class="menu-center pull-left">
+			<img src="img/1.png" id="img">
+			<div class="srcollBut main-pull">
+				<ul>
+					<li class="item"></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<a id="left" href="javascript:;">&lt;</a>
+			<a id="right" href="javascript:;">&gt;</a>
+		</div>
+	</div><!--top_main结束-->
+	<div class="clear"></div>
+	<div class="main-pull exam-types" style="padding-top:0;">
+		<div class="main exam-types-list">
+			<div class="exam-type-item">
+	            <a href="#">
+	                <div class="exam-type-logo xc"></div>
+	                <h4 class="exam-type-title">小车 驾驶员考试</h4>
+	            </a>
+	            <dl class="exam-type-links">
+	                <dt><a href="#">科目一</a></dt>
+	                <dd><a href="#" target="_blank">顺序练习</a><span>|</span>
+	                	<a href="#" target="_blank">随机练习</a><span>|</span>
+	                	<a href="#" target="_blank">错题练习</a><span>|</span>
+	                	<a href="#" target="_blank">模拟考试</a></dd>
+	            </dl>
+	            <dl class="exam-type-links">
+	                <dt><a href="#">科目四</a></dt>
+	                <dd><a href="#" target="_blank">顺序练习</a><span>|</span>
+	                	<a href="#" target="_blank">随机练习</a><span>|</span>
+	                	<a href="#" target="_blank">错题练习</a><span>|</span>
+	                	<a href="#" target="_blank">模拟考试</a></dd>
+	            </dl>
+	        </div>
+	        <div class="exam-type-item">
+	            <a href="#">
+	                <div class="exam-type-logo xc"></div>
+	                <h4 class="exam-type-title">货车 驾驶员考试</h4>
+	            </a>
+	            <dl class="exam-type-links">
+	                <dt><a href="#">科目一</a></dt>
+	                <dd><a href="#" target="_blank">顺序练习</a><span>|</span>
+	                	<a href="#" target="_blank">随机练习</a><span>|</span>
+	                	<a href="#" target="_blank">错题练习</a><span>|</span>
+	                	<a href="#" target="_blank">模拟考试</a></dd>
+	            </dl>
+	            <dl class="exam-type-links">
+	                <dt><a href="#">科目四</a></dt>
+	                <dd><a href="#" target="_blank">顺序练习</a><span>|</span>
+	                	<a href="#" target="_blank">随机练习</a><span>|</span>
+	                	<a href="#" target="_blank">错题练习</a><span>|</span>
+	                	<a href="#" target="_blank">模拟考试</a></dd>
+	            </dl>
+	        </div>
+	        <div class="exam-type-item exam-type-item-no">
+	            <a href="#">
+	                <div class="exam-type-logo xc"></div>
+	                <h4 class="exam-type-title">客车 驾驶员考试</h4>
+	            </a>
+	            <dl class="exam-type-links">
+	                <dt><a href="#">科目一</a></dt>
+	                <dd><a href="#" target="_blank">顺序练习</a><span>|</span>
+	                	<a href="#" target="_blank">随机练习</a><span>|</span>
+	                	<a href="#" target="_blank">错题练习</a><span>|</span>
+	                	<a href="#" target="_blank">模拟考试</a></dd>
+	            </dl>
+	            <dl class="exam-type-links">
+	                <dt><a href="#">科目四</a></dt>
+	                <dd><a href="#" target="_blank">顺序练习</a><span>|</span>
+	                	<a href="#" target="_blank">随机练习</a><span>|</span>
+	                	<a href="#" target="_blank">错题练习</a><span>|</span>
+	                	<a href="#" target="_blank">模拟考试</a></dd>
+	            </dl>
+	        </div>
+	        <div class="exam-type-item">
+	            <a href="#">
+	                <div class="exam-type-logo xc"></div>
+	                <h4 class="exam-type-title">摩托车 驾驶员考试</h4>
+	            </a>
+	            <dl class="exam-type-links">
+	                <dt><a href="#">科目一</a></dt>
+	                <dd><a href="#" target="_blank">顺序练习</a><span>|</span>
+	                	<a href="#" target="_blank">随机练习</a><span>|</span>
+	                	<a href="#" target="_blank">错题练习</a><span>|</span>
+	                	<a href="#" target="_blank">模拟考试</a></dd>
+	            </dl>
+	            <dl class="exam-type-links">
+	                <dt><a href="#">科目四</a></dt>
+	                <dd><a href="#" target="_blank">顺序练习</a><span>|</span>
+	                	<a href="#" target="_blank">随机练习</a><span>|</span>
+	                	<a href="#" target="_blank">错题练习</a><span>|</span>
+	                	<a href="#" target="_blank">模拟考试</a></dd>
+	            </dl>
+	        </div>
+	        <div class="exam-type-item">
+	            <a href="#">
+	                <div class="exam-type-logo xc"></div>
+	                <h4 class="exam-type-title">回复考试资格</h4>
+	            </a>
+	            <dl class="exam-type-links">
+	                <dd><a href="#" target="_blank">顺序练习</a><span>|</span>
+	                	<a href="#" target="_blank">随机练习</a><span>|</span>
+	                	<a href="#" target="_blank">错题练习</a><span>|</span>
+	                	<a href="#" target="_blank">专项考试</a><span>|</span>
+	                	<a href="#" target="_blank">模拟考试</a></dd>
+	            </dl>
+	        </div>
+	        <div class="exam-type-item exam-type-item-no">
+	            <a href="#">
+	                <div class="exam-type-logo xc"></div>
+	                <h4 class="exam-type-title">从业资格考试</h4>
+	            </a>
+	            <dl class="exam-type-links">
+	                <dt><a href="#">科目一</a></dt>
+	                <dd><a href="#" target="_blank">顺序练习</a><span>|</span>
+	                	<a href="#" target="_blank">随机练习</a><span>|</span>
+	                	<a href="#" target="_blank">错题练习</a><span>|</span>
+	                	<a href="#" target="_blank">模拟考试</a></dd>
+	            </dl>
+	            <dl class="exam-type-links">
+	                <dt><a href="#">科目四</a></dt>
+	                <dd><a href="#" target="_blank">顺序练习</a><span>|</span>
+	                	<a href="#" target="_blank">随机练习</a><span>|</span>
+	                	<a href="#" target="_blank">错题练习</a><span>|</span>
+	                	<a href="#" target="_blank">模拟考试</a></dd>
+	            </dl>
+	        </div>
+		</div>
+	</div><!--exam-types结束-->
+	<div class="clear"></div>
+	<div class="main more-links">
+		<div class="more-links-item pull-left">
+			<div class="more-links-logo pull-left">
+				<img src="img/morelinks1.png" alt="">
+			</div>
+			<div class="links pull-left">
+				<h4>
+	                驾驶员理论考试试题
+	                <a href="#" target="_blank" class="more pull-right">更多&gt;</a>
+	            </h4>
+	            <ul class="list pull-left">
+					<li><a href="#" target="_blank" >烟台驾校</a></li>
+					<li><a href="#" target="_blank" >泰安驾校</a></li>
+					<li><a href="#" target="_blank" >淄博驾校</a></li>
+					<li><a href="#" target="_blank" >大同驾校</a></li>
+					<li><a href="#" target="_blank" >忻州驾校</a></li>
+					<li><a href="#" target="_blank" >晋城驾校</a></li>
+					<li><a href="#" target="_blank" >临汾驾校</a></li>
+					<li><a href="#" target="_blank" >运城驾校</a></li>
+					<li><a href="#" target="_blank" >海口驾校</a></li>
+					<li><a href="#" target="_blank" >东城驾校</a></li>
+					<li><a href="#" target="_blank" >乌鲁木齐驾校</a></li>
+					<li><a href="#" target="_blank" >喀什驾校</a></li>
+					<li><a href="#" target="_blank" >图木舒克驾校</a></li>
+					<li><a href="#" target="_blank" >吐鲁番驾校</a></li>
+					<li><a href="#" target="_blank" >塔城驾校</a></li>
+					<li><a href="#" target="_blank" >哈密驾校</a></li>
+	            </ul>
+	            <ul class="list pull-right">
+					<li><a href="#" target="_blank" >克拉玛依学车</a></li>
+					<li><a href="#" target="_blank" >伊犁州学车</a></li>
+					<li><a href="#" target="_blank" >合肥学车</a></li>
+					<li><a href="#" target="_blank" >淮南学车</a></li>
+					<li><a href="#" target="_blank" >宿州学车</a></li>
+					<li><a href="#" target="_blank" >安庆学车</a></li>
+					<li><a href="#" target="_blank" >黄山学车</a></li>
+					<li><a href="#" target="_blank" >阜阳学车</a></li>
+					<li><a href="#" target="_blank" >六安学车</a></li>
+					<li><a href="#" target="_blank" >潍坊学车</a></li>
+					<li><a href="#" target="_blank" >铜陵学车</a></li>
+					<li><a href="#" target="_blank" >宣州学车</a></li>
+					<li><a href="#" target="_blank" >菏泽学车</a></li>
+					<li><a href="#" target="_blank" >保定学车</a></li>
+					<li><a href="#" target="_blank" >济宁学车</a></li>
+					<li><a href="#" target="_blank" >临沂学车</a></li>
+	            </ul>
+				<div class="split"></div>
+			</div>
+		</div>
+		<div class="more-links-item pull-right">
+			<div class="more-links-logo pull-left">
+				<img src="img/morelinks2.png" alt="">
+			</div>
+			<div class="links pull-left">
+				<h4>
+	                全国驾校驾驶员考试
+	                <a class="more pull-right" href="#" target="_blank">更多&gt;</a>
+	            </h4>
+	            <ul class="list pull-left">
+					<li><a href="#" target="_blank" >南通汽校驾校</a></li>
+					<li><a href="#" target="_blank" >储运驾校驾校</a></li>
+					<li><a href="#" target="_blank" >中强驾校驾校</a></li>
+					<li><a href="#" target="_blank" >通达驾校驾校</a></li>
+					<li><a href="#" target="_blank" >时代驾校驾校</a></li>
+					<li><a href="#" target="_blank" >四海驾校驾校</a></li>
+					<li><a href="#" target="_blank" >长安大学驾校驾校</a></li>
+					<li><a href="#" target="_blank" >富民驾校驾校</a></li>
+					<li><a href="#" target="_blank" >光明驾校驾校</a></li>
+					<li><a href="#" target="_blank" >华津驾校驾校</a></li>
+					<li><a href="#" target="_blank" >神州驾校驾校</a></li>
+					<li><a href="#" target="_blank" >淮安驾校驾校</a></li>
+					<li><a href="#" target="_blank" >金穗驾校驾校</a></li>
+					<li><a href="#" target="_blank" >新区驾校驾校</a></li>
+					<li><a href="#" target="_blank" >吉诺驾校驾校</a></li>
+					<li><a href="#" target="_blank" >八达驾校驾校</a></li>
+	            </ul>
+	            <ul class="list pull-right">
+					<li><a href="#" target="_blank" >常州教练三队</a></li>
+					<li><a href="#" target="_blank" >西安华清驾校</a></li>
+					<li><a href="#" target="_blank" >厦门双寅驾校</a></li>
+					<li><a href="#" target="_blank" >厦门红星驾校</a></li>
+					<li><a href="#" target="_blank" >金华驾校</a></li>
+					<li><a href="#" target="_blank" >温州交通驾校</a></li>
+					<li><a href="#" target="_blank" >金华公交驾校</a></li>
+					<li><a href="#" target="_blank" >丽水侨乡驾校</a></li>
+					<li><a href="#" target="_blank" >绍兴汽车驾校</a></li>
+					<li><a href="#" target="_blank" >绍兴驾校</a></li>
+					<li><a href="#" target="_blank" >台州玉峰驾校</a></li>
+					<li><a href="#" target="_blank" >宁德机动车驾校</a></li>
+					<li><a href="#" target="_blank" >嘉兴国鸿驾校</a></li>
+					<li><a href="#" target="_blank" >湖州交通驾校</a></li>
+					<li><a href="#" target="_blank" >苏州观山驾校</a></li>
+					<li><a href="#" target="_blank" >镇江江天驾校</a></li>
+	            </ul>
+	            <div class="split"></div>
+	        </div>
+			</div>
+		</div>
+	</div><!--more-links结束-->
+	<div class="clear"></div>
+	<div class="footer main-pull">
+		<div class="main">
+			<div class="footer-links pull-left">
+				<p>
+					<a href="#" class="first" rel="nofollow"  target="_blank">网站介绍</a>|
+				    <a href="#" target="_blank" rel="nofollow">网站地图</a>|
+				    <a href="#" target="_blank" rel="nofollow">合作链接</a>|
+				    <a href="#" target="_blank" rel="nofollow">免责声明</a>|
+				    <a href="#" target="_blank" rel="nofollow">广告服务</a>|
+				    <a href="#" target="_blank" rel="nofollow">用户帮助</a>|
+				    <a href="#" target="_blank" rel="nofollow">联系我们</a>|
+				    <a href="#" target="_blank" rel="nofollow">意见反馈</a>
+    			</p>
+				<p>
+					驾校一点通（<a href="#"  target="_blank">www.jxedt.com</a>）
+					旗下平台： <a href="#" target="_blank">驾校平台</a>
+				    <a href="#"  target="_blank">教练平台</a>
+				    <a href="#" target="_blank">陪练平台</a>
+				    <a href="#" target="_blank">考试平台</a>
+				</p>
+				<p>杭州XXX科技有限公司 浙ICP备123456789号</p>		
+			</div>
+			<div class="footer-ewm pull-right">
+				<div class="ewm">
+	            	<img src="img/banner_jxedt_app.png"><br>
+	            	2016官方最新题库
+	            </div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
