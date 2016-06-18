@@ -1,8 +1,11 @@
 /*公共样式*/
 .main-pull{width: 100%;clear: both;overflow: hidden;}
 .main{margin: 0 auto;width: 1190px;clear: both;overflow: hidden;}
+.main_md{margin: 912px;margin: 0 auto;}
 .pull-left{float: left;}
 .pull-right{float: right;}
+.left{float: left;}
+.right{float: right;}
 .clear{display: block;overflow: hidden;clear: both;}
 
 .top_logo{width:100%;margin-bottom: 5px;border-bottom: 1px solid #e5e5e5;}
@@ -75,7 +78,7 @@
 .ewm img{width: 86px; margin: 0;}
 
 
-/*产品分类*/
+/*驾校分类*/
 .content{margin: 0 auto;width: 1190px;position: relative;}
 .content .left{width: 820px;float: left;}
 /*左半部*/
@@ -215,6 +218,110 @@
 .ourpingtai {margin-top: 8px;text-align: center;font-weight: 400;}
 .ourpingtai a {display: inline-block;margin: 0 4px;color: #666;}
 .ourpingtai a:hover{color: #f60;text-decoration: underline;}
+
+
+/*驾校介绍*/
+.cut_nav_show {height: 27px;padding-left: 10px;width: 1190px;margin: 0 auto;}
+.cut_nav_show_jx{background: #f8f8f8;margin-top: 8px;}
+.cut_nav_show a{color: #4C4C4C;}
+.cut_nav_show a:hover{color: #f60;text-decoration: underline;}
+.content .baseinfo{height: auto;background: url(../img/company_contentbg.png) repeat-x;}
+.content .baseinfo h1 {font-size: 18px;font-weight: 700;height: 43px;line-height: 43px;
+    padding-left: 32px;text-align: center;}
+.content .baseinfo .photo {width: 300px;float: left;margin-left: 32px;}
+.content .baseinfo .photo img {height: 168px;width: 258px;border: 1px solid #ccc;
+    padding: 2px;}
+.content .baseinfo .base {width: 500px;float: left;margin-left: 10px;}
+.content .baseinfo .base ul li {font-size: 16px;width: 470px;border-bottom: 1px dashed #ccc;
+    height: auto;line-height: 38px;}
+.content .baseinfo .base ul li .priceinfo {float: left;display: inline-block;width: 200px;}
+.content .baseinfo .base ul li .price {color: #F60;font-family: tahoma;font-size: 20px;}
+.content .baseinfo .base ul li .danwei {color: #F60;font-size: 16px;}
+.content .baseinfo .base ul li .updatetime {font-size: 12px;color: #8d8c8c;float: right;
+    width: 165px;text-align: right;display: inline-block;}
+.content .baseinfo .base ul li .areaall a:link, .content .baseinfo .base ul li .areaall a:visited{
+    color: #000;
+}
+.content .baseinfo .base ul li .areaall a:hover, .content .baseinfo .base ul li .areaall a:active{
+    color:#f60;text-decoration: underline;
+}
+.content .baseinfo .base ul .lastone {font-size: 12px;border-bottom: none;color: #8d8c8c;
+    width: 372px;}
+.content .baseinfo .base ul .lastone a {color: #0041D9;}
+.content .baseinfo .base ul .lastone a:hover{color:#f60;text-decoration: underline;}
+.content .baseinfo .green_line {width: 21px;height: 177px;float: left;margin-left: 10px;
+    background: url(../img/jx_showgb.png) -200px 0 no-repeat;}
+.content .baseinfo .orderlinks {width: 308px;float: left;}
+.content .baseinfo .orderlinks .tuijian0 {background: url(../img/tuijian0.png) no-repeat;
+    height: 98px;width: 121px;margin: 0 auto;}
+.content .baseinfo .orderlinks .others {text-align: center;line-height: 24px;}
+.content .baseinfo .orderlinks .others a:link, .content .baseinfo .orderlinks .others a:visited{
+    color: #000;
+}
+.content .baseinfo .orderlinks .others a:hover{color:#f60;text-decoration: underline;}
+.content .baseinfo .orderlinks .yellowh {color: #F60;display: inline-block;padding: 0 3px;
+    cursor: pointer;}
+/*---------------------------------------------------------------------------------------------------*/
+.content .sub_menu ul {padding-left: 20px;}
+.w850 {width: 850px!important;}
+.content .sub_menu .sm li {background: url(../img/jx_showgb.png) no-repeat;
+    height: 29px;width: 88px;float: left;margin: 0 8px;text-align: center;
+    line-height: 32px;background-position: -90px -126px;overflow: hidden;}
+.content .sub_menu .sm .on {background-position: 0 -126px;}
+.content .sub_menu ul .on a {font-weight: 700;color: #FFF;}
+.content .sub_menu ul li a {font-size: 14px;display: block;color:#000;}
+.content .sub_menu ul li a:hover{color: #f60;text-decoration: underline;}
+/*------------------------------------------------------------------------------------*/
+.content .company_show {background: url(../img/company_contentbg.png) repeat-x;}
+.content .company_show .infos {font-size: 14px;line-height: 28px;padding: 22px 32px;
+    overflow: hidden;}
+.rzdl {width: 970px;margin: 0 auto;border: solid 1px #cbcbcb;}
+.rzdl .libie {background: #f8f8f8;height: 50px;line-height: 50px;border-bottom: solid 1px #cbcbcb;}
+.rzdl .libie span {display: inline-block;font-family: Helvetica,Tahoma,Arial,sans-serif,Simsun;
+    font-size: 22px;color: #000;background: #fff;height: 51px;width: 130px;text-align: center;
+    border-right: solid 1px #cbcbcb;}
+.rzdl table {margin-top: 16px;}
+.rzdl table .title {background: #f5fdf0;size: 18px;height: 50px;color: #b3b9b0;}   
+.rzdl table tr {height: 50px;line-height: 50px;}
+.rzdl table tr th, .rzdl table tr td {border-bottom: solid 1px #eaeaea;}
+.rzdl table tr td{color: #000;}
+.rzdl table tr td span:first-child {background: #6ebb2b;color: #fff;font-size: 14px;
+    border-radius: 5px;margin-right: 15px;}
+.rzdl table tr td span {display: inline-block;height: 27px;line-height: 27px;width: 72px;
+    text-align: center;}
+.main_md .p_size{font-family:Arial, simsun, sans-serif, 宋体;font-size:14px;vertical-align:
+    baseline;color:#282828;background-color:#FFFFFF;}
+.main_md p{font-family:Arial, simsun, sans-serif, 宋体;font-size:14px;vertical-align:baseline;
+    color:#282828;background-color:#FFFFFF;}
+.main_md p span{line-height: 30px;}
+/*--------------------------------------------------------------------------------------------------*/
+.content .company_show h3 {font-size: 14px;font-weight: 700;line-height: 40px;
+    overflow: hidden;padding-left: 32px;color: #000}
+.content .company_show .infos .mt {height: 154px!important;}
+.content .company_show .infos .photos .first {margin-left: 0;}
+.content .company_show .infos .mt li {height: 154px!important;margin-top: 10px!important;}
+.content .company_show .infos .photos li {float: left;width: 197px;height: 184px;margin-left: 34px;
+    _margin-left: 28px;text-align: center;}
+.content .company_show .infos .photos li img {height: 148px;width: 197px;border: 1px solid #CCC;
+    padding: 2px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
